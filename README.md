@@ -99,28 +99,6 @@ git clone https://github.com/Pineda-25/AppLista.git
    ./gradlew installDebug
    ```
 
----
-
-## Estructura del proyecto
-
-```
-AppLista/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/com/example/applistas/
-│           │   ├── BuscadorPersonaje.java   # Actividad principal
-│           │   └── MainActivity.java
-│           └── res/
-│               └── layout/
-│                   └── activity_buscador_personaje.xml  # Layout principal
-├── gradle/
-│   └── libs.versions.toml   # Versiones de dependencias
-├── cambios.txt              # Registro de cambios realizados
-└── README.md
-```
-
----
 
 ## Cómo usar la app
 
