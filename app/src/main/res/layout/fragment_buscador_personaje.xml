@@ -4,11 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:padding="15dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
         android:text="Estas en el buscador"
         android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnsaludar"
+        android:text="Saludar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
